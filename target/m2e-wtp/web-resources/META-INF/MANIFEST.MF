@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Built-By: uongs
+Build-Jdk: 1.8.0_211
+Implementation-Title: USERREST
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: cs544
+Created-By: Maven Integration for Eclipse
+
