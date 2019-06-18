@@ -174,3 +174,11 @@ fabric.properties
 .idea/encodings.xml
 .idea/misc.xml
 .idea/modules.xml
+target/classes/import.sql
+target/m2e-wtp/web-resources/META-INF/maven/cs544/USERREST/pom.properties
+target/classes/edu/mum/cs544/IUserDao.class
+target/classes/edu/mum/cs544/User.class
+target/classes/edu/mum/cs544/UserRestController.class
+target/classes/edu/mum/cs544/UserService.class
+target/classes/import.sql
+target/m2e-wtp/web-resources/META-INF/maven/cs544/USERREST/pom.properties

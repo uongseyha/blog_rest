@@ -3,6 +3,7 @@ package edu.mum.cs544;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 public class User {
@@ -11,7 +12,9 @@ public class User {
     private Long id;
     private String firstName;
     private String lastName;
+    @NotEmpty
     private String email;
+    @NotEmpty
     private String password;
 
     public User(){}
