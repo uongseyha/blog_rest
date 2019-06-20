@@ -1,5 +1,7 @@
-package edu.mum.cs544;
+package edu.mum.cs544.controller;
 
+import edu.mum.cs544.service.UserService;
+import edu.mum.cs544.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.view.RedirectView;

@@ -1,2 +1,13 @@
-INSERT INTO USER VALUES(NULL,'admin@mail.com', 'admin','admin', '123');
-INSERT INTO USER VALUES(NULL,'seyha@mail.com', 'seyha','uong', '123');
+INSERT INTO USER VALUES (NULL , "admin@mail.com", 'admin' , 'admin', '123');
+INSERT INTO USER VALUES (NULL , "seyha@mail.com", 'seyha' , 'ung', '123');
+INSERT INTO USER VALUES (NULL , "tola@mail.com", 'tola' , 'lao', '123');
+INSERT INTO post VALUES(NULL, 'Post Title 1', 'Short Descrip', 'Full post text....', 1);
+INSERT INTO post VALUES(NULL, 'Post Title 2', 'Short Descrip 2', 'Full post text 2....', 2);
+INSERT INTO post VALUES(NULL, 'Post Title 3', 'Short Descrip 3', 'Full post text 3....', 3);
+INSERT INTO post VALUES(NULL, 'Post Title 4', 'Short Descrip 4', 'Full post text 4....', 3);
+INSERT INTO post_categories VALUES(1, 'WEB');
+INSERT INTO post_categories VALUES(1, 'SPRING');
+INSERT INTO post_categories VALUES(1, 'ANGULAR');
+INSERT INTO Comment VALUES(NULL ,"2019-02-02T00:00:00" , 1 ,  1 , 'Comment 1');
+INSERT INTO Comment VALUES(NULL ,"2019-01-01T00:00:00" , 2 ,  2, 'Comment 2');
+INSERT INTO Comment VALUES(NULL ,"2019-01-01T00:00:00" , 3 ,  3, 'Comment 3');

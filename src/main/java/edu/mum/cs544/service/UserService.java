@@ -1,5 +1,7 @@
-package edu.mum.cs544;
+package edu.mum.cs544.service;
 
+import edu.mum.cs544.dao.IUserDao;
+import edu.mum.cs544.model.User;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
