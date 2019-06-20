@@ -20,8 +20,8 @@ public class CommentService {
         return commentDao.findAll();
     }
 
-    public List<Comment> getAllByUserIdAndPostId(int userId, int postId) {
-        return commentDao.findByCreatedUserIdAndCreatedPostId(userId,postId);
+    public List<Comment> getAllByPostId(int postId) {
+        return commentDao.findByCreatedPostId(postId);
     }
 
     public Comment get(int id) {

@@ -29,8 +29,8 @@ public class CommentRestController {
     }
 
     @GetMapping(value = "/comments", produces = "application/json")
-    public List<Comment> getAll(@PathVariable int userId, @PathVariable int postId) {
-        return commentService.getAllByUserIdAndPostId(userId, postId);
+    public List<Comment> getAllByPostId(@PathVariable int postId) {
+        return commentService.getAllByPostId(postId);
     }
 
     @GetMapping(value = "/comments/{id}", produces = "application/json")
